@@ -1,0 +1,2607 @@
+2022-02-28 00:32:07,277 spark session started 
+2022-02-28 00:32:11,795 GatewayClient.address is deprecated and will be removed in version 1.0. Use GatewayParameters instead.
+2022-02-28 00:32:11,796 Command to send: A
+9271ba8dfc4d0d2e1b56c1b8995e47477a7c1b62212a2455b675f20b64f416e3
+
+2022-02-28 00:32:11,816 Answer received: !yv
+2022-02-28 00:32:11,817 Command to send: j
+i
+rj
+org.apache.spark.SparkConf
+e
+
+2022-02-28 00:32:11,819 Answer received: !yv
+2022-02-28 00:32:11,819 Command to send: j
+i
+rj
+org.apache.spark.api.java.*
+e
+
+2022-02-28 00:32:11,819 Answer received: !yv
+2022-02-28 00:32:11,819 Command to send: j
+i
+rj
+org.apache.spark.api.python.*
+e
+
+2022-02-28 00:32:11,820 Answer received: !yv
+2022-02-28 00:32:11,820 Command to send: j
+i
+rj
+org.apache.spark.ml.python.*
+e
+
+2022-02-28 00:32:11,820 Answer received: !yv
+2022-02-28 00:32:11,820 Command to send: j
+i
+rj
+org.apache.spark.mllib.api.python.*
+e
+
+2022-02-28 00:32:11,820 Answer received: !yv
+2022-02-28 00:32:11,821 Command to send: j
+i
+rj
+org.apache.spark.resource.*
+e
+
+2022-02-28 00:32:11,821 Answer received: !yv
+2022-02-28 00:32:11,821 Command to send: j
+i
+rj
+org.apache.spark.sql.*
+e
+
+2022-02-28 00:32:11,821 Answer received: !yv
+2022-02-28 00:32:11,821 Command to send: j
+i
+rj
+org.apache.spark.sql.api.python.*
+e
+
+2022-02-28 00:32:11,822 Answer received: !yv
+2022-02-28 00:32:11,822 Command to send: j
+i
+rj
+org.apache.spark.sql.hive.*
+e
+
+2022-02-28 00:32:11,822 Answer received: !yv
+2022-02-28 00:32:11,823 Command to send: j
+i
+rj
+scala.Tuple2
+e
+
+2022-02-28 00:32:11,823 Answer received: !yv
+2022-02-28 00:32:11,823 Command to send: r
+u
+SparkConf
+rj
+e
+
+2022-02-28 00:32:11,849 Answer received: !ycorg.apache.spark.SparkConf
+2022-02-28 00:32:11,849 Command to send: i
+org.apache.spark.SparkConf
+bTrue
+e
+
+2022-02-28 00:32:11,856 Answer received: !yro0
+2022-02-28 00:32:11,857 Command to send: c
+o0
+set
+sspark.master
+slocal
+e
+
+2022-02-28 00:32:11,860 Answer received: !yro1
+2022-02-28 00:32:11,861 Command to send: c
+o0
+set
+sspark.app.name
+swiki-changes-event-consumer
+e
+
+2022-02-28 00:32:11,861 Answer received: !yro2
+2022-02-28 00:32:11,861 Command to send: c
+o0
+set
+sspark.jars.packages
+sorg.apache.spark:spark-sql-kafka-0-10_2.12:3.2.1,net.snowflake:spark-snowflake_2.12:2.10.0-spark_3.2
+e
+
+2022-02-28 00:32:11,862 Answer received: !yro3
+2022-02-28 00:32:11,862 Command to send: c
+o0
+contains
+sspark.serializer.objectStreamReset
+e
+
+2022-02-28 00:32:11,862 Answer received: !ybfalse
+2022-02-28 00:32:11,863 Command to send: c
+o0
+set
+sspark.serializer.objectStreamReset
+s100
+e
+
+2022-02-28 00:32:11,863 Answer received: !yro4
+2022-02-28 00:32:11,863 Command to send: c
+o0
+contains
+sspark.rdd.compress
+e
+
+2022-02-28 00:32:11,863 Answer received: !ybfalse
+2022-02-28 00:32:11,864 Command to send: c
+o0
+set
+sspark.rdd.compress
+sTrue
+e
+
+2022-02-28 00:32:11,864 Answer received: !yro5
+2022-02-28 00:32:11,864 Command to send: c
+o0
+contains
+sspark.master
+e
+
+2022-02-28 00:32:11,864 Answer received: !ybtrue
+2022-02-28 00:32:11,864 Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+2022-02-28 00:32:11,865 Answer received: !ybtrue
+2022-02-28 00:32:11,865 Command to send: c
+o0
+contains
+sspark.master
+e
+
+2022-02-28 00:32:11,865 Answer received: !ybtrue
+2022-02-28 00:32:11,865 Command to send: c
+o0
+get
+sspark.master
+e
+
+2022-02-28 00:32:11,866 Answer received: !yslocal
+2022-02-28 00:32:11,866 Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+2022-02-28 00:32:11,866 Answer received: !ybtrue
+2022-02-28 00:32:11,866 Command to send: c
+o0
+get
+sspark.app.name
+e
+
+2022-02-28 00:32:11,867 Answer received: !yswiki-changes-event-consumer
+2022-02-28 00:32:11,867 Command to send: c
+o0
+contains
+sspark.home
+e
+
+2022-02-28 00:32:11,867 Answer received: !ybfalse
+2022-02-28 00:32:11,867 Command to send: c
+o0
+getAll
+e
+
+2022-02-28 00:32:11,868 Answer received: !yto6
+2022-02-28 00:32:11,868 Command to send: a
+e
+o6
+e
+
+2022-02-28 00:32:11,869 Answer received: !yi11
+2022-02-28 00:32:11,869 Command to send: a
+g
+o6
+i0
+e
+
+2022-02-28 00:32:11,869 Answer received: !yro7
+2022-02-28 00:32:11,869 Command to send: c
+o7
+_1
+e
+
+2022-02-28 00:32:11,870 Answer received: !ysspark.master
+2022-02-28 00:32:11,870 Command to send: c
+o7
+_2
+e
+
+2022-02-28 00:32:11,870 Answer received: !yslocal
+2022-02-28 00:32:11,871 Command to send: a
+e
+o6
+e
+
+2022-02-28 00:32:11,871 Answer received: !yi11
+2022-02-28 00:32:11,871 Command to send: a
+g
+o6
+i1
+e
+
+2022-02-28 00:32:11,871 Answer received: !yro8
+2022-02-28 00:32:11,871 Command to send: c
+o8
+_1
+e
+
+2022-02-28 00:32:11,871 Answer received: !ysspark.app.name
+2022-02-28 00:32:11,872 Command to send: c
+o8
+_2
+e
+
+2022-02-28 00:32:11,872 Answer received: !yswiki-changes-event-consumer
+2022-02-28 00:32:11,872 Command to send: a
+e
+o6
+e
+
+2022-02-28 00:32:11,872 Answer received: !yi11
+2022-02-28 00:32:11,872 Command to send: a
+g
+o6
+i2
+e
+
+2022-02-28 00:32:11,873 Answer received: !yro9
+2022-02-28 00:32:11,873 Command to send: c
+o9
+_1
+e
+
+2022-02-28 00:32:11,873 Answer received: !ysspark.rdd.compress
+2022-02-28 00:32:11,873 Command to send: c
+o9
+_2
+e
+
+2022-02-28 00:32:11,874 Answer received: !ysTrue
+2022-02-28 00:32:11,874 Command to send: a
+e
+o6
+e
+
+2022-02-28 00:32:11,874 Answer received: !yi11
+2022-02-28 00:32:11,874 Command to send: a
+g
+o6
+i3
+e
+
+2022-02-28 00:32:11,874 Answer received: !yro10
+2022-02-28 00:32:11,875 Command to send: c
+o10
+_1
+e
+
+2022-02-28 00:32:11,875 Answer received: !ysspark.jars
+2022-02-28 00:32:11,875 Command to send: c
+o10
+_2
+e
+
+2022-02-28 00:32:11,875 Answer received: !ysfile:///home/suman/.ivy2/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.2.1.jar,file:///home/suman/.ivy2/jars/net.snowflake_spark-snowflake_2.12-2.10.0-spark_3.2.jar,file:///home/suman/.ivy2/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.2.1.jar,file:///home/suman/.ivy2/jars/org.apache.kafka_kafka-clients-2.8.0.jar,file:///home/suman/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar,file:///home/suman/.ivy2/jars/org.apache.commons_commons-pool2-2.6.2.jar,file:///home/suman/.ivy2/jars/org.spark-project.spark_unused-1.0.0.jar,file:///home/suman/.ivy2/jars/org.apache.hadoop_hadoop-client-runtime-3.3.1.jar,file:///home/suman/.ivy2/jars/org.lz4_lz4-java-1.7.1.jar,file:///home/suman/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.8.4.jar,file:///home/suman/.ivy2/jars/org.slf4j_slf4j-api-1.7.30.jar,file:///home/suman/.ivy2/jars/org.apache.hadoop_hadoop-client-api-3.3.1.jar,file:///home/suman/.ivy2/jars/org.apache.htrace_htrace-core4-4.1.0-incubating.jar,file:///home/suman/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar,file:///home/suman/.ivy2/jars/net.snowflake_snowflake-ingest-sdk-0.10.3.jar,file:///home/suman/.ivy2/jars/net.snowflake_snowflake-jdbc-3.13.14.jar
+2022-02-28 00:32:11,876 Command to send: a
+e
+o6
+e
+
+2022-02-28 00:32:11,876 Answer received: !yi11
+2022-02-28 00:32:11,876 Command to send: a
+g
+o6
+i4
+e
+
+2022-02-28 00:32:11,876 Answer received: !yro11
+2022-02-28 00:32:11,876 Command to send: c
+o11
+_1
+e
+
+2022-02-28 00:32:11,877 Answer received: !ysspark.files
+2022-02-28 00:32:11,877 Command to send: c
+o11
+_2
+e
+
+2022-02-28 00:32:11,878 Answer received: !ysfile:///home/suman/.ivy2/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.2.1.jar,file:///home/suman/.ivy2/jars/net.snowflake_spark-snowflake_2.12-2.10.0-spark_3.2.jar,file:///home/suman/.ivy2/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.2.1.jar,file:///home/suman/.ivy2/jars/org.apache.kafka_kafka-clients-2.8.0.jar,file:///home/suman/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar,file:///home/suman/.ivy2/jars/org.apache.commons_commons-pool2-2.6.2.jar,file:///home/suman/.ivy2/jars/org.spark-project.spark_unused-1.0.0.jar,file:///home/suman/.ivy2/jars/org.apache.hadoop_hadoop-client-runtime-3.3.1.jar,file:///home/suman/.ivy2/jars/org.lz4_lz4-java-1.7.1.jar,file:///home/suman/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.8.4.jar,file:///home/suman/.ivy2/jars/org.slf4j_slf4j-api-1.7.30.jar,file:///home/suman/.ivy2/jars/org.apache.hadoop_hadoop-client-api-3.3.1.jar,file:///home/suman/.ivy2/jars/org.apache.htrace_htrace-core4-4.1.0-incubating.jar,file:///home/suman/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar,file:///home/suman/.ivy2/jars/net.snowflake_snowflake-ingest-sdk-0.10.3.jar,file:///home/suman/.ivy2/jars/net.snowflake_snowflake-jdbc-3.13.14.jar
+2022-02-28 00:32:11,878 Command to send: a
+e
+o6
+e
+
+2022-02-28 00:32:11,878 Answer received: !yi11
+2022-02-28 00:32:11,878 Command to send: a
+g
+o6
+i5
+e
+
+2022-02-28 00:32:11,879 Answer received: !yro12
+2022-02-28 00:32:11,879 Command to send: c
+o12
+_1
+e
+
+2022-02-28 00:32:11,879 Answer received: !ysspark.serializer.objectStreamReset
+2022-02-28 00:32:11,880 Command to send: c
+o12
+_2
+e
+
+2022-02-28 00:32:11,880 Answer received: !ys100
+2022-02-28 00:32:11,880 Command to send: a
+e
+o6
+e
+
+2022-02-28 00:32:11,881 Answer received: !yi11
+2022-02-28 00:32:11,881 Command to send: a
+g
+o6
+i6
+e
+
+2022-02-28 00:32:11,881 Answer received: !yro13
+2022-02-28 00:32:11,881 Command to send: c
+o13
+_1
+e
+
+2022-02-28 00:32:11,882 Answer received: !ysspark.submit.pyFiles
+2022-02-28 00:32:11,882 Command to send: c
+o13
+_2
+e
+
+2022-02-28 00:32:11,882 Answer received: !ys/home/suman/.ivy2/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.2.1.jar,/home/suman/.ivy2/jars/net.snowflake_spark-snowflake_2.12-2.10.0-spark_3.2.jar,/home/suman/.ivy2/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.2.1.jar,/home/suman/.ivy2/jars/org.apache.kafka_kafka-clients-2.8.0.jar,/home/suman/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar,/home/suman/.ivy2/jars/org.apache.commons_commons-pool2-2.6.2.jar,/home/suman/.ivy2/jars/org.spark-project.spark_unused-1.0.0.jar,/home/suman/.ivy2/jars/org.apache.hadoop_hadoop-client-runtime-3.3.1.jar,/home/suman/.ivy2/jars/org.lz4_lz4-java-1.7.1.jar,/home/suman/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.8.4.jar,/home/suman/.ivy2/jars/org.slf4j_slf4j-api-1.7.30.jar,/home/suman/.ivy2/jars/org.apache.hadoop_hadoop-client-api-3.3.1.jar,/home/suman/.ivy2/jars/org.apache.htrace_htrace-core4-4.1.0-incubating.jar,/home/suman/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar,/home/suman/.ivy2/jars/net.snowflake_snowflake-ingest-sdk-0.10.3.jar,/home/suman/.ivy2/jars/net.snowflake_snowflake-jdbc-3.13.14.jar
+2022-02-28 00:32:11,883 Command to send: a
+e
+o6
+e
+
+2022-02-28 00:32:11,883 Answer received: !yi11
+2022-02-28 00:32:11,883 Command to send: a
+g
+o6
+i7
+e
+
+2022-02-28 00:32:11,884 Answer received: !yro14
+2022-02-28 00:32:11,884 Command to send: c
+o14
+_1
+e
+
+2022-02-28 00:32:11,884 Answer received: !ysspark.repl.local.jars
+2022-02-28 00:32:11,885 Command to send: c
+o14
+_2
+e
+
+2022-02-28 00:32:11,885 Answer received: !ysfile:///home/suman/.ivy2/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.2.1.jar,file:///home/suman/.ivy2/jars/net.snowflake_spark-snowflake_2.12-2.10.0-spark_3.2.jar,file:///home/suman/.ivy2/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.2.1.jar,file:///home/suman/.ivy2/jars/org.apache.kafka_kafka-clients-2.8.0.jar,file:///home/suman/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar,file:///home/suman/.ivy2/jars/org.apache.commons_commons-pool2-2.6.2.jar,file:///home/suman/.ivy2/jars/org.spark-project.spark_unused-1.0.0.jar,file:///home/suman/.ivy2/jars/org.apache.hadoop_hadoop-client-runtime-3.3.1.jar,file:///home/suman/.ivy2/jars/org.lz4_lz4-java-1.7.1.jar,file:///home/suman/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.8.4.jar,file:///home/suman/.ivy2/jars/org.slf4j_slf4j-api-1.7.30.jar,file:///home/suman/.ivy2/jars/org.apache.hadoop_hadoop-client-api-3.3.1.jar,file:///home/suman/.ivy2/jars/org.apache.htrace_htrace-core4-4.1.0-incubating.jar,file:///home/suman/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar,file:///home/suman/.ivy2/jars/net.snowflake_snowflake-ingest-sdk-0.10.3.jar,file:///home/suman/.ivy2/jars/net.snowflake_snowflake-jdbc-3.13.14.jar
+2022-02-28 00:32:11,885 Command to send: a
+e
+o6
+e
+
+2022-02-28 00:32:11,885 Answer received: !yi11
+2022-02-28 00:32:11,885 Command to send: a
+g
+o6
+i8
+e
+
+2022-02-28 00:32:11,886 Answer received: !yro15
+2022-02-28 00:32:11,886 Command to send: c
+o15
+_1
+e
+
+2022-02-28 00:32:11,886 Answer received: !ysspark.submit.deployMode
+2022-02-28 00:32:11,886 Command to send: c
+o15
+_2
+e
+
+2022-02-28 00:32:11,886 Answer received: !ysclient
+2022-02-28 00:32:11,887 Command to send: a
+e
+o6
+e
+
+2022-02-28 00:32:11,887 Answer received: !yi11
+2022-02-28 00:32:11,887 Command to send: a
+g
+o6
+i9
+e
+
+2022-02-28 00:32:11,887 Answer received: !yro16
+2022-02-28 00:32:11,887 Command to send: c
+o16
+_1
+e
+
+2022-02-28 00:32:11,887 Answer received: !ysspark.jars.packages
+2022-02-28 00:32:11,888 Command to send: c
+o16
+_2
+e
+
+2022-02-28 00:32:11,888 Answer received: !ysorg.apache.spark:spark-sql-kafka-0-10_2.12:3.2.1,net.snowflake:spark-snowflake_2.12:2.10.0-spark_3.2
+2022-02-28 00:32:11,888 Command to send: a
+e
+o6
+e
+
+2022-02-28 00:32:11,888 Answer received: !yi11
+2022-02-28 00:32:11,888 Command to send: a
+g
+o6
+i10
+e
+
+2022-02-28 00:32:11,889 Answer received: !yro17
+2022-02-28 00:32:11,889 Command to send: c
+o17
+_1
+e
+
+2022-02-28 00:32:11,889 Answer received: !ysspark.ui.showConsoleProgress
+2022-02-28 00:32:11,889 Command to send: c
+o17
+_2
+e
+
+2022-02-28 00:32:11,889 Answer received: !ystrue
+2022-02-28 00:32:11,889 Command to send: a
+e
+o6
+e
+
+2022-02-28 00:32:11,890 Answer received: !yi11
+2022-02-28 00:32:11,890 Command to send: r
+u
+JavaSparkContext
+rj
+e
+
+2022-02-28 00:32:11,908 Answer received: !ycorg.apache.spark.api.java.JavaSparkContext
+2022-02-28 00:32:11,908 Command to send: i
+org.apache.spark.api.java.JavaSparkContext
+ro0
+e
+
+2022-02-28 00:32:12,796 Command to send: A
+9271ba8dfc4d0d2e1b56c1b8995e47477a7c1b62212a2455b675f20b64f416e3
+
+2022-02-28 00:32:12,800 Answer received: !yv
+2022-02-28 00:32:12,800 Command to send: m
+d
+o1
+e
+
+2022-02-28 00:32:12,801 Answer received: !yv
+2022-02-28 00:32:12,801 Command to send: m
+d
+o2
+e
+
+2022-02-28 00:32:12,801 Answer received: !yv
+2022-02-28 00:32:12,802 Command to send: m
+d
+o3
+e
+
+2022-02-28 00:32:12,802 Answer received: !yv
+2022-02-28 00:32:12,802 Command to send: m
+d
+o4
+e
+
+2022-02-28 00:32:12,803 Answer received: !yv
+2022-02-28 00:32:12,803 Command to send: m
+d
+o5
+e
+
+2022-02-28 00:32:12,803 Answer received: !yv
+2022-02-28 00:32:12,803 Command to send: m
+d
+o6
+e
+
+2022-02-28 00:32:12,803 Answer received: !yv
+2022-02-28 00:32:17,432 Answer received: !yro18
+2022-02-28 00:32:17,433 Command to send: c
+o18
+sc
+e
+
+2022-02-28 00:32:17,435 Answer received: !yro19
+2022-02-28 00:32:17,436 Command to send: c
+o19
+conf
+e
+
+2022-02-28 00:32:17,447 Answer received: !yro20
+2022-02-28 00:32:17,448 Command to send: r
+u
+PythonAccumulatorV2
+rj
+e
+
+2022-02-28 00:32:17,450 Answer received: !ycorg.apache.spark.api.python.PythonAccumulatorV2
+2022-02-28 00:32:17,450 Command to send: i
+org.apache.spark.api.python.PythonAccumulatorV2
+s127.0.0.1
+i59331
+s9271ba8dfc4d0d2e1b56c1b8995e47477a7c1b62212a2455b675f20b64f416e3
+e
+
+2022-02-28 00:32:17,451 Answer received: !yro21
+2022-02-28 00:32:17,451 Command to send: c
+o18
+sc
+e
+
+2022-02-28 00:32:17,451 Answer received: !yro22
+2022-02-28 00:32:17,451 Command to send: c
+o22
+register
+ro21
+e
+
+2022-02-28 00:32:17,455 Answer received: !yv
+2022-02-28 00:32:17,455 Command to send: r
+u
+PythonUtils
+rj
+e
+
+2022-02-28 00:32:17,456 Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2022-02-28 00:32:17,456 Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+e
+
+2022-02-28 00:32:17,457 Answer received: !ym
+2022-02-28 00:32:17,457 Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+ro18
+e
+
+2022-02-28 00:32:17,458 Answer received: !ybfalse
+2022-02-28 00:32:17,459 Command to send: r
+u
+PythonUtils
+rj
+e
+
+2022-02-28 00:32:17,459 Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2022-02-28 00:32:17,460 Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+e
+
+2022-02-28 00:32:17,460 Answer received: !ym
+2022-02-28 00:32:17,460 Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+ro18
+e
+
+2022-02-28 00:32:17,460 Answer received: !yL15
+2022-02-28 00:32:17,461 Command to send: r
+u
+PythonUtils
+rj
+e
+
+2022-02-28 00:32:17,461 Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2022-02-28 00:32:17,461 Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+e
+
+2022-02-28 00:32:17,462 Answer received: !ym
+2022-02-28 00:32:17,462 Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+ro18
+e
+
+2022-02-28 00:32:17,462 Answer received: !yi65536
+2022-02-28 00:32:17,462 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,464 Answer received: !yp
+2022-02-28 00:32:17,464 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,465 Answer received: !yp
+2022-02-28 00:32:17,465 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,465 Answer received: !yp
+2022-02-28 00:32:17,466 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,466 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,466 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,466 Answer received: !ym
+2022-02-28 00:32:17,466 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,467 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,467 Command to send: c
+o20
+get
+sspark.submit.pyFiles
+s
+e
+
+2022-02-28 00:32:17,467 Answer received: !ys/home/suman/.ivy2/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.2.1.jar,/home/suman/.ivy2/jars/net.snowflake_spark-snowflake_2.12-2.10.0-spark_3.2.jar,/home/suman/.ivy2/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.2.1.jar,/home/suman/.ivy2/jars/org.apache.kafka_kafka-clients-2.8.0.jar,/home/suman/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar,/home/suman/.ivy2/jars/org.apache.commons_commons-pool2-2.6.2.jar,/home/suman/.ivy2/jars/org.spark-project.spark_unused-1.0.0.jar,/home/suman/.ivy2/jars/org.apache.hadoop_hadoop-client-runtime-3.3.1.jar,/home/suman/.ivy2/jars/org.lz4_lz4-java-1.7.1.jar,/home/suman/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.8.4.jar,/home/suman/.ivy2/jars/org.slf4j_slf4j-api-1.7.30.jar,/home/suman/.ivy2/jars/org.apache.hadoop_hadoop-client-api-3.3.1.jar,/home/suman/.ivy2/jars/org.apache.htrace_htrace-core4-4.1.0-incubating.jar,/home/suman/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar,/home/suman/.ivy2/jars/net.snowflake_snowflake-ingest-sdk-0.10.3.jar,/home/suman/.ivy2/jars/net.snowflake_snowflake-jdbc-3.13.14.jar
+2022-02-28 00:32:17,468 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,470 Answer received: !yp
+2022-02-28 00:32:17,470 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,470 Answer received: !yp
+2022-02-28 00:32:17,470 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,471 Answer received: !yp
+2022-02-28 00:32:17,471 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,471 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,471 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,472 Answer received: !ym
+2022-02-28 00:32:17,472 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,472 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,472 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,474 Answer received: !yp
+2022-02-28 00:32:17,474 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,475 Answer received: !yp
+2022-02-28 00:32:17,475 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,475 Answer received: !yp
+2022-02-28 00:32:17,475 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,476 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,476 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,476 Answer received: !ym
+2022-02-28 00:32:17,476 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,476 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,477 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,479 Answer received: !yp
+2022-02-28 00:32:17,479 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,480 Answer received: !yp
+2022-02-28 00:32:17,480 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,480 Answer received: !yp
+2022-02-28 00:32:17,480 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,481 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,481 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,481 Answer received: !ym
+2022-02-28 00:32:17,482 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,482 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,482 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,486 Answer received: !yp
+2022-02-28 00:32:17,486 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,487 Answer received: !yp
+2022-02-28 00:32:17,487 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,488 Answer received: !yp
+2022-02-28 00:32:17,488 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,489 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,489 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,489 Answer received: !ym
+2022-02-28 00:32:17,489 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,490 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,490 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,493 Answer received: !yp
+2022-02-28 00:32:17,493 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,494 Answer received: !yp
+2022-02-28 00:32:17,494 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,495 Answer received: !yp
+2022-02-28 00:32:17,495 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,495 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,495 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,495 Answer received: !ym
+2022-02-28 00:32:17,495 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,496 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,496 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,497 Answer received: !yp
+2022-02-28 00:32:17,498 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,498 Answer received: !yp
+2022-02-28 00:32:17,498 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,499 Answer received: !yp
+2022-02-28 00:32:17,499 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,499 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,499 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,499 Answer received: !ym
+2022-02-28 00:32:17,499 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,500 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,500 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,502 Answer received: !yp
+2022-02-28 00:32:17,502 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,502 Answer received: !yp
+2022-02-28 00:32:17,502 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,503 Answer received: !yp
+2022-02-28 00:32:17,503 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,503 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,503 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,503 Answer received: !ym
+2022-02-28 00:32:17,503 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,504 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,504 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,506 Answer received: !yp
+2022-02-28 00:32:17,506 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,506 Answer received: !yp
+2022-02-28 00:32:17,507 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,507 Answer received: !yp
+2022-02-28 00:32:17,507 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,507 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,507 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,508 Answer received: !ym
+2022-02-28 00:32:17,508 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,508 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,508 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,510 Answer received: !yp
+2022-02-28 00:32:17,510 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,511 Answer received: !yp
+2022-02-28 00:32:17,511 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,512 Answer received: !yp
+2022-02-28 00:32:17,512 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,512 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,512 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,512 Answer received: !ym
+2022-02-28 00:32:17,513 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,513 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,513 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,515 Answer received: !yp
+2022-02-28 00:32:17,515 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,515 Answer received: !yp
+2022-02-28 00:32:17,516 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,516 Answer received: !yp
+2022-02-28 00:32:17,516 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,517 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,517 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,517 Answer received: !ym
+2022-02-28 00:32:17,517 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,517 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,517 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,519 Answer received: !yp
+2022-02-28 00:32:17,519 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,520 Answer received: !yp
+2022-02-28 00:32:17,520 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,520 Answer received: !yp
+2022-02-28 00:32:17,520 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,521 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,521 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,521 Answer received: !ym
+2022-02-28 00:32:17,521 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,521 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,521 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,523 Answer received: !yp
+2022-02-28 00:32:17,523 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,523 Answer received: !yp
+2022-02-28 00:32:17,523 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,524 Answer received: !yp
+2022-02-28 00:32:17,524 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,524 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,524 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,524 Answer received: !ym
+2022-02-28 00:32:17,525 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,525 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,525 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,526 Answer received: !yp
+2022-02-28 00:32:17,527 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,527 Answer received: !yp
+2022-02-28 00:32:17,527 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,528 Answer received: !yp
+2022-02-28 00:32:17,528 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,528 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,528 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,528 Answer received: !ym
+2022-02-28 00:32:17,528 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,528 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,529 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,530 Answer received: !yp
+2022-02-28 00:32:17,530 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,531 Answer received: !yp
+2022-02-28 00:32:17,531 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,531 Answer received: !yp
+2022-02-28 00:32:17,531 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,531 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,532 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,532 Answer received: !ym
+2022-02-28 00:32:17,532 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,532 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,532 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,534 Answer received: !yp
+2022-02-28 00:32:17,534 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,535 Answer received: !yp
+2022-02-28 00:32:17,535 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,535 Answer received: !yp
+2022-02-28 00:32:17,535 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,536 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,536 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,536 Answer received: !ym
+2022-02-28 00:32:17,536 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,537 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,537 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,539 Answer received: !yp
+2022-02-28 00:32:17,539 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,539 Answer received: !yp
+2022-02-28 00:32:17,539 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,540 Answer received: !yp
+2022-02-28 00:32:17,540 Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2022-02-28 00:32:17,540 Answer received: !ycorg.apache.spark.SparkFiles
+2022-02-28 00:32:17,540 Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,541 Answer received: !ym
+2022-02-28 00:32:17,541 Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2022-02-28 00:32:17,541 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/userFiles-96f4d81c-a92c-49d8-9359-a99f79f9b841
+2022-02-28 00:32:17,541 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,543 Answer received: !yp
+2022-02-28 00:32:17,543 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,543 Answer received: !yp
+2022-02-28 00:32:17,543 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,544 Answer received: !yp
+2022-02-28 00:32:17,544 Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2022-02-28 00:32:17,544 Answer received: !yp
+2022-02-28 00:32:17,545 Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2022-02-28 00:32:17,546 Answer received: !ycorg.apache.spark.util.Utils
+2022-02-28 00:32:17,547 Command to send: r
+m
+org.apache.spark.util.Utils
+getLocalDir
+e
+
+2022-02-28 00:32:17,549 Answer received: !ym
+2022-02-28 00:32:17,549 Command to send: c
+o18
+sc
+e
+
+2022-02-28 00:32:17,549 Answer received: !yro23
+2022-02-28 00:32:17,549 Command to send: c
+o23
+conf
+e
+
+2022-02-28 00:32:17,549 Answer received: !yro24
+2022-02-28 00:32:17,549 Command to send: c
+z:org.apache.spark.util.Utils
+getLocalDir
+ro24
+e
+
+2022-02-28 00:32:17,550 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4
+2022-02-28 00:32:17,550 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:17,552 Answer received: !yp
+2022-02-28 00:32:17,552 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:17,552 Answer received: !yp
+2022-02-28 00:32:17,553 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:17,553 Answer received: !yp
+2022-02-28 00:32:17,553 Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2022-02-28 00:32:17,554 Answer received: !yp
+2022-02-28 00:32:17,554 Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2022-02-28 00:32:17,554 Answer received: !ycorg.apache.spark.util.Utils
+2022-02-28 00:32:17,554 Command to send: r
+m
+org.apache.spark.util.Utils
+createTempDir
+e
+
+2022-02-28 00:32:17,555 Answer received: !ym
+2022-02-28 00:32:17,555 Command to send: c
+z:org.apache.spark.util.Utils
+createTempDir
+s/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4
+spyspark
+e
+
+2022-02-28 00:32:17,555 Answer received: !yro25
+2022-02-28 00:32:17,556 Command to send: c
+o25
+getAbsolutePath
+e
+
+2022-02-28 00:32:17,556 Answer received: !ys/tmp/spark-dde012c6-13df-4378-acd4-bec94ab377f4/pyspark-29e89662-6f92-4633-b968-238307612445
+2022-02-28 00:32:17,556 Command to send: c
+o20
+get
+sspark.python.profile
+sfalse
+e
+
+2022-02-28 00:32:17,557 Answer received: !ysfalse
+2022-02-28 00:32:17,557 Command to send: r
+u
+SparkSession
+rj
+e
+
+2022-02-28 00:32:17,587 Answer received: !ycorg.apache.spark.sql.SparkSession
+2022-02-28 00:32:17,587 Command to send: r
+m
+org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+2022-02-28 00:32:17,615 Answer received: !ym
+2022-02-28 00:32:17,615 Command to send: c
+z:org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+2022-02-28 00:32:17,616 Answer received: !yro26
+2022-02-28 00:32:17,617 Command to send: c
+o26
+isDefined
+e
+
+2022-02-28 00:32:17,617 Answer received: !ybfalse
+2022-02-28 00:32:17,617 Command to send: r
+u
+SparkSession
+rj
+e
+
+2022-02-28 00:32:17,619 Answer received: !ycorg.apache.spark.sql.SparkSession
+2022-02-28 00:32:17,619 Command to send: c
+o18
+sc
+e
+
+2022-02-28 00:32:17,619 Answer received: !yro27
+2022-02-28 00:32:17,620 Command to send: i
+org.apache.spark.sql.SparkSession
+ro27
+e
+
+2022-02-28 00:32:17,703 Answer received: !yro28
+2022-02-28 00:32:17,703 Command to send: c
+o28
+sqlContext
+e
+
+2022-02-28 00:32:17,703 Answer received: !yro29
+2022-02-28 00:32:17,704 Command to send: r
+u
+SparkSession
+rj
+e
+
+2022-02-28 00:32:17,705 Answer received: !ycorg.apache.spark.sql.SparkSession
+2022-02-28 00:32:17,705 Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setDefaultSession
+e
+
+2022-02-28 00:32:17,705 Answer received: !ym
+2022-02-28 00:32:17,706 Command to send: c
+z:org.apache.spark.sql.SparkSession
+setDefaultSession
+ro28
+e
+
+2022-02-28 00:32:17,706 Answer received: !yv
+2022-02-28 00:32:17,706 Command to send: r
+u
+SparkSession
+rj
+e
+
+2022-02-28 00:32:17,707 Answer received: !ycorg.apache.spark.sql.SparkSession
+2022-02-28 00:32:17,707 Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setActiveSession
+e
+
+2022-02-28 00:32:17,708 Answer received: !ym
+2022-02-28 00:32:17,708 Command to send: c
+z:org.apache.spark.sql.SparkSession
+setActiveSession
+ro28
+e
+
+2022-02-28 00:32:17,708 Answer received: !yv
+2022-02-28 00:32:17,708 Command to send: c
+o28
+sessionState
+e
+
+2022-02-28 00:32:18,626 Answer received: !yro30
+2022-02-28 00:32:18,626 Command to send: c
+o30
+conf
+e
+
+2022-02-28 00:32:18,627 Answer received: !yro31
+2022-02-28 00:32:18,628 Command to send: c
+o31
+setConfString
+sspark.master
+slocal
+e
+
+2022-02-28 00:32:18,629 Answer received: !yv
+2022-02-28 00:32:18,629 Command to send: c
+o28
+sessionState
+e
+
+2022-02-28 00:32:18,630 Answer received: !yro32
+2022-02-28 00:32:18,630 Command to send: c
+o32
+conf
+e
+
+2022-02-28 00:32:18,630 Answer received: !yro33
+2022-02-28 00:32:18,630 Command to send: c
+o33
+setConfString
+sspark.app.name
+swiki-changes-event-consumer
+e
+
+2022-02-28 00:32:18,631 Answer received: !yv
+2022-02-28 00:32:18,631 Command to send: c
+o28
+sessionState
+e
+
+2022-02-28 00:32:18,631 Answer received: !yro34
+2022-02-28 00:32:18,631 Command to send: c
+o34
+conf
+e
+
+2022-02-28 00:32:18,631 Answer received: !yro35
+2022-02-28 00:32:18,632 Command to send: c
+o35
+setConfString
+sspark.jars.packages
+sorg.apache.spark:spark-sql-kafka-0-10_2.12:3.2.1,net.snowflake:spark-snowflake_2.12:2.10.0-spark_3.2
+e
+
+2022-02-28 00:32:18,632 Answer received: !yv
+2022-02-28 00:32:18,632 setting up snowflake connections
+2022-02-28 00:32:18,632 fetching latest records from RAW table
+2022-02-28 00:32:18,632 Command to send: c
+o29
+read
+e
+
+2022-02-28 00:32:18,641 Answer received: !yro36
+2022-02-28 00:32:18,641 Command to send: c
+o36
+format
+ssnowflake
+e
+
+2022-02-28 00:32:18,648 Answer received: !yro37
+2022-02-28 00:32:18,649 Command to send: c
+o37
+option
+ssfURL
+szu02863.ap-south-1.aws.snowflakecomputing.com
+e
+
+2022-02-28 00:32:18,650 Answer received: !yro38
+2022-02-28 00:32:18,650 Command to send: c
+o38
+option
+ssfAccount
+szu02863.ap-south-1.aws
+e
+
+2022-02-28 00:32:18,651 Answer received: !yro39
+2022-02-28 00:32:18,651 Command to send: c
+o39
+option
+ssfUser
+scoolkeonjhar
+e
+
+2022-02-28 00:32:18,651 Answer received: !yro40
+2022-02-28 00:32:18,652 Command to send: c
+o40
+option
+ssfPassword
+sAmrita@123
+e
+
+2022-02-28 00:32:18,652 Answer received: !yro41
+2022-02-28 00:32:18,652 Command to send: c
+o41
+option
+ssfDatabase
+sNIMBUS_MAPS
+e
+
+2022-02-28 00:32:18,653 Answer received: !yro42
+2022-02-28 00:32:18,653 Command to send: c
+o42
+option
+ssfSchema
+sPRESENTATION
+e
+
+2022-02-28 00:32:18,653 Answer received: !yro43
+2022-02-28 00:32:18,654 Command to send: c
+o43
+option
+ssfWarehouse
+sSNOW_LARGE_VWH
+e
+
+2022-02-28 00:32:18,654 Answer received: !yro44
+2022-02-28 00:32:18,654 Command to send: c
+o44
+option
+ssfRole
+sACCOUNTADMIN
+e
+
+2022-02-28 00:32:18,655 Answer received: !yro45
+2022-02-28 00:32:18,655 Command to send: c
+o45
+option
+squery
+sselect UID,ADDRESS,CITY,ZIPCODE,DECISION,CURRENT_TIMESTAMP() AS CREATE_TS from NIMBUS_MAPS.RAW_LAYER.DECISION_DATA_RAW where create_ts >(select nvl(max(CREATE_TS),to_timestamp('2001-01-01 00:00:00','YYYY-MM-DD HH24:MI:SS')) FROM nimbus_maps.presentation.decision_data_pres)
+e
+
+2022-02-28 00:32:18,656 Answer received: !yro46
+2022-02-28 00:32:18,656 Command to send: c
+o46
+load
+e
+
+2022-02-28 00:32:23,028 Answer received: !yro47
+2022-02-28 00:32:23,028 fetched data from RAW Layer
+2022-02-28 00:32:23,028 Command to send: c
+o47
+count
+e
+
+2022-02-28 00:32:26,946 Answer received: !yL45
+2022-02-28 00:32:26,947 45 records fetched to be processed
+2022-02-28 00:32:26,947 checking if record count is o
+2022-02-28 00:32:26,947 Command to send: c
+o47
+count
+e
+
+2022-02-28 00:32:28,325 Answer received: !yL45
+2022-02-28 00:32:28,326 Command to send: c
+o28
+sessionState
+e
+
+2022-02-28 00:32:28,326 Answer received: !yro48
+2022-02-28 00:32:28,327 Command to send: c
+o48
+conf
+e
+
+2022-02-28 00:32:28,327 Answer received: !yro49
+2022-02-28 00:32:28,327 Command to send: c
+o49
+setConfString
+sspark.master
+slocal
+e
+
+2022-02-28 00:32:28,327 Answer received: !yv
+2022-02-28 00:32:28,328 Command to send: c
+o28
+sessionState
+e
+
+2022-02-28 00:32:28,328 Answer received: !yro50
+2022-02-28 00:32:28,328 Command to send: c
+o50
+conf
+e
+
+2022-02-28 00:32:28,328 Answer received: !yro51
+2022-02-28 00:32:28,328 Command to send: c
+o51
+setConfString
+sspark.app.name
+swiki-changes-event-consumer
+e
+
+2022-02-28 00:32:28,329 Answer received: !yv
+2022-02-28 00:32:28,329 Command to send: c
+o28
+sessionState
+e
+
+2022-02-28 00:32:28,329 Answer received: !yro52
+2022-02-28 00:32:28,329 Command to send: c
+o52
+conf
+e
+
+2022-02-28 00:32:28,329 Answer received: !yro53
+2022-02-28 00:32:28,329 Command to send: c
+o53
+setConfString
+sspark.jars.packages
+sorg.apache.spark:spark-sql-kafka-0-10_2.12:3.2.1,net.snowflake:spark-snowflake_2.12:2.10.0-spark_3.2
+e
+
+2022-02-28 00:32:28,330 Answer received: !yv
+2022-02-28 00:32:28,330 Command to send: r
+u
+PythonUtils
+rj
+e
+
+2022-02-28 00:32:28,331 Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2022-02-28 00:32:28,331 Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getBroadcastThreshold
+e
+
+2022-02-28 00:32:28,331 Answer received: !ym
+2022-02-28 00:32:28,331 Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getBroadcastThreshold
+ro18
+e
+
+2022-02-28 00:32:28,332 Answer received: !yL1048576
+2022-02-28 00:32:28,332 Command to send: r
+u
+PythonFunction
+rj
+e
+
+2022-02-28 00:32:28,334 Answer received: !ycorg.apache.spark.api.python.PythonFunction
+2022-02-28 00:32:28,334 Command to send: i
+java.util.HashMap
+e
+
+2022-02-28 00:32:28,334 Answer received: !yao54
+2022-02-28 00:32:28,334 Command to send: c
+o54
+put
+sPYTHONHASHSEED
+s0
+e
+
+2022-02-28 00:32:28,335 Answer received: !yn
+2022-02-28 00:32:28,335 Command to send: i
+java.util.ArrayList
+e
+
+2022-02-28 00:32:28,336 Answer received: !ylo55
+2022-02-28 00:32:28,336 Command to send: c
+o55
+add
+sorg.apache.spark_spark-sql-kafka-0-10_2.12-3.2.1.jar
+e
+
+2022-02-28 00:32:28,336 Answer received: !ybtrue
+2022-02-28 00:32:28,337 Command to send: c
+o55
+add
+snet.snowflake_spark-snowflake_2.12-2.10.0-spark_3.2.jar
+e
+
+2022-02-28 00:32:28,337 Answer received: !ybtrue
+2022-02-28 00:32:28,337 Command to send: c
+o55
+add
+sorg.apache.spark_spark-token-provider-kafka-0-10_2.12-3.2.1.jar
+e
+
+2022-02-28 00:32:28,337 Answer received: !ybtrue
+2022-02-28 00:32:28,337 Command to send: c
+o55
+add
+sorg.apache.kafka_kafka-clients-2.8.0.jar
+e
+
+2022-02-28 00:32:28,338 Answer received: !ybtrue
+2022-02-28 00:32:28,338 Command to send: c
+o55
+add
+scom.google.code.findbugs_jsr305-3.0.0.jar
+e
+
+2022-02-28 00:32:28,338 Answer received: !ybtrue
+2022-02-28 00:32:28,338 Command to send: c
+o55
+add
+sorg.apache.commons_commons-pool2-2.6.2.jar
+e
+
+2022-02-28 00:32:28,339 Answer received: !ybtrue
+2022-02-28 00:32:28,339 Command to send: c
+o55
+add
+sorg.spark-project.spark_unused-1.0.0.jar
+e
+
+2022-02-28 00:32:28,339 Answer received: !ybtrue
+2022-02-28 00:32:28,339 Command to send: c
+o55
+add
+sorg.apache.hadoop_hadoop-client-runtime-3.3.1.jar
+e
+
+2022-02-28 00:32:28,339 Answer received: !ybtrue
+2022-02-28 00:32:28,340 Command to send: c
+o55
+add
+sorg.lz4_lz4-java-1.7.1.jar
+e
+
+2022-02-28 00:32:28,340 Answer received: !ybtrue
+2022-02-28 00:32:28,340 Command to send: c
+o55
+add
+sorg.xerial.snappy_snappy-java-1.1.8.4.jar
+e
+
+2022-02-28 00:32:28,340 Answer received: !ybtrue
+2022-02-28 00:32:28,340 Command to send: c
+o55
+add
+sorg.slf4j_slf4j-api-1.7.30.jar
+e
+
+2022-02-28 00:32:28,341 Answer received: !ybtrue
+2022-02-28 00:32:28,341 Command to send: c
+o55
+add
+sorg.apache.hadoop_hadoop-client-api-3.3.1.jar
+e
+
+2022-02-28 00:32:28,341 Answer received: !ybtrue
+2022-02-28 00:32:28,341 Command to send: c
+o55
+add
+sorg.apache.htrace_htrace-core4-4.1.0-incubating.jar
+e
+
+2022-02-28 00:32:28,341 Answer received: !ybtrue
+2022-02-28 00:32:28,341 Command to send: c
+o55
+add
+scommons-logging_commons-logging-1.1.3.jar
+e
+
+2022-02-28 00:32:28,342 Answer received: !ybtrue
+2022-02-28 00:32:28,342 Command to send: c
+o55
+add
+snet.snowflake_snowflake-ingest-sdk-0.10.3.jar
+e
+
+2022-02-28 00:32:28,342 Answer received: !ybtrue
+2022-02-28 00:32:28,342 Command to send: c
+o55
+add
+snet.snowflake_snowflake-jdbc-3.13.14.jar
+e
+
+2022-02-28 00:32:28,342 Answer received: !ybtrue
+2022-02-28 00:32:28,343 Command to send: i
+java.util.ArrayList
+e
+
+2022-02-28 00:32:28,343 Answer received: !ylo56
+2022-02-28 00:32:28,343 Command to send: i
+org.apache.spark.api.python.PythonFunction
+jgAWVkQIAAAAAAACMH3B5c3BhcmsuY2xvdWRwaWNrbGUuY2xvdWRwaWNrbGWUjA1fYnVpbHRpbl90eXBllJOUjApMYW1iZGFUeXBllIWUUpQoaAKMCENvZGVUeXBllIWUUpQoSwFLAEsASwJLAktDQx5kAX0BfACgAKEAZAJrAnIWZAN9AW4EZAR9AXwBUwCUKE6MAJSMAUGUiIl0lIwFdXBwZXKUhZSMCGRlY2lzaW9ulIwHdmVyZGljdJSGlIxkL2hvbWUvc3VtYW4vUHljaGFybVByb2plY3RzL2RhdGFfbG9hZF9mcm9tX3Jhd190b19wcmVzZW50YXRpb24vZGF0YV9sb2FkX2Zyb21fcmF3X3RvX3ByZXNlbnRhdGlvbi5weZSMDmlzR29vZERlY2lzaW9ulEtIQwoAAQQBDAEGAgQBlCkpdJRSlH2UKIwLX19wYWNrYWdlX1+UTowIX19uYW1lX1+UjAhfX21haW5fX5SMCF9fZmlsZV9flGgSdU5OTnSUUpSMJHB5c3BhcmsuY2xvdWRwaWNrbGUuY2xvdWRwaWNrbGVfZmFzdJSMEl9mdW5jdGlvbl9zZXRzdGF0ZZSTlGgdfZR9lChoGWgTjAxfX3F1YWxuYW1lX1+UaBOMD19fYW5ub3RhdGlvbnNfX5R9lIwOX19rd2RlZmF1bHRzX1+UTowMX19kZWZhdWx0c19flE6MCl9fbW9kdWxlX1+UaBqMB19fZG9jX1+UTowLX19jbG9zdXJlX1+UTowXX2Nsb3VkcGlja2xlX3N1Ym1vZHVsZXOUXZSMC19fZ2xvYmFsc19flH2UdYaUhlIwjBFweXNwYXJrLnNxbC50eXBlc5SMClN0cmluZ1R5cGWUk5QpgZSGlC4=
+ro54
+ro55
+spython3
+s3.8
+ro56
+ro21
+e
+
+2022-02-28 00:32:28,345 Answer received: !yro57
+2022-02-28 00:32:28,345 Command to send: c
+o28
+parseDataType
+s"string"
+e
+
+2022-02-28 00:32:28,365 Answer received: !yro58
+2022-02-28 00:32:28,365 Command to send: r
+u
+org
+rj
+e
+
+2022-02-28 00:32:28,367 Answer received: !yp
+2022-02-28 00:32:28,367 Command to send: r
+u
+org.apache
+rj
+e
+
+2022-02-28 00:32:28,368 Answer received: !yp
+2022-02-28 00:32:28,368 Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2022-02-28 00:32:28,368 Answer received: !yp
+2022-02-28 00:32:28,368 Command to send: r
+u
+org.apache.spark.sql
+rj
+e
+
+2022-02-28 00:32:28,369 Answer received: !yp
+2022-02-28 00:32:28,369 Command to send: r
+u
+org.apache.spark.sql.execution
+rj
+e
+
+2022-02-28 00:32:28,369 Answer received: !yp
+2022-02-28 00:32:28,369 Command to send: r
+u
+org.apache.spark.sql.execution.python
+rj
+e
+
+2022-02-28 00:32:28,370 Answer received: !yp
+2022-02-28 00:32:28,370 Command to send: r
+u
+org.apache.spark.sql.execution.python.UserDefinedPythonFunction
+rj
+e
+
+2022-02-28 00:32:28,371 Answer received: !ycorg.apache.spark.sql.execution.python.UserDefinedPythonFunction
+2022-02-28 00:32:28,371 Command to send: i
+org.apache.spark.sql.execution.python.UserDefinedPythonFunction
+sisGoodDecision
+ro57
+ro58
+i100
+bTrue
+e
+
+2022-02-28 00:32:28,372 Answer received: !yro59
+2022-02-28 00:32:28,372 Command to send: r
+u
+functions
+rj
+e
+
+2022-02-28 00:32:28,377 Answer received: !ycorg.apache.spark.sql.functions
+2022-02-28 00:32:28,377 Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2022-02-28 00:32:28,397 Answer received: !ym
+2022-02-28 00:32:28,398 Command to send: c
+z:org.apache.spark.sql.functions
+col
+sDECISION
+e
+
+2022-02-28 00:32:28,433 Answer received: !yro60
+2022-02-28 00:32:28,433 Command to send: r
+u
+PythonUtils
+rj
+e
+
+2022-02-28 00:32:28,434 Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2022-02-28 00:32:28,435 Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2022-02-28 00:32:28,435 Answer received: !ym
+2022-02-28 00:32:28,435 Command to send: i
+java.util.ArrayList
+e
+
+2022-02-28 00:32:28,436 Answer received: !ylo61
+2022-02-28 00:32:28,436 Command to send: c
+o61
+add
+ro60
+e
+
+2022-02-28 00:32:28,437 Answer received: !ybtrue
+2022-02-28 00:32:28,437 Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro61
+e
+
+2022-02-28 00:32:28,437 Answer received: !yro62
+2022-02-28 00:32:28,438 Command to send: c
+o59
+apply
+ro62
+e
+
+2022-02-28 00:32:28,440 Answer received: !yro63
+2022-02-28 00:32:28,440 Command to send: c
+o47
+withColumn
+sisGoodDecision
+ro63
+e
+
+2022-02-28 00:32:28,503 Answer received: !yro64
+2022-02-28 00:32:28,503 Command to send: r
+u
+functions
+rj
+e
+
+2022-02-28 00:32:28,505 Answer received: !ycorg.apache.spark.sql.functions
+2022-02-28 00:32:28,505 Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2022-02-28 00:32:28,505 Answer received: !ym
+2022-02-28 00:32:28,506 Command to send: c
+z:org.apache.spark.sql.functions
+col
+sUID
+e
+
+2022-02-28 00:32:28,506 Answer received: !yro65
+2022-02-28 00:32:28,506 Command to send: r
+u
+functions
+rj
+e
+
+2022-02-28 00:32:28,508 Answer received: !ycorg.apache.spark.sql.functions
+2022-02-28 00:32:28,508 Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2022-02-28 00:32:28,508 Answer received: !ym
+2022-02-28 00:32:28,509 Command to send: c
+z:org.apache.spark.sql.functions
+col
+sDECISION
+e
+
+2022-02-28 00:32:28,509 Answer received: !yro66
+2022-02-28 00:32:28,509 Command to send: r
+u
+functions
+rj
+e
+
+2022-02-28 00:32:28,511 Answer received: !ycorg.apache.spark.sql.functions
+2022-02-28 00:32:28,511 Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2022-02-28 00:32:28,512 Answer received: !ym
+2022-02-28 00:32:28,512 Command to send: c
+z:org.apache.spark.sql.functions
+col
+sisGoodDecision
+e
+
+2022-02-28 00:32:28,512 Answer received: !yro67
+2022-02-28 00:32:28,513 Command to send: r
+u
+functions
+rj
+e
+
+2022-02-28 00:32:28,515 Answer received: !ycorg.apache.spark.sql.functions
+2022-02-28 00:32:28,515 Command to send: r
+m
+org.apache.spark.sql.functions
+col
+e
+
+2022-02-28 00:32:28,515 Answer received: !ym
+2022-02-28 00:32:28,516 Command to send: c
+z:org.apache.spark.sql.functions
+col
+screate_ts
+e
+
+2022-02-28 00:32:28,516 Answer received: !yro68
+2022-02-28 00:32:28,516 Command to send: r
+u
+PythonUtils
+rj
+e
+
+2022-02-28 00:32:28,517 Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2022-02-28 00:32:28,518 Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+2022-02-28 00:32:28,518 Answer received: !ym
+2022-02-28 00:32:28,518 Command to send: i
+java.util.ArrayList
+e
+
+2022-02-28 00:32:28,518 Answer received: !ylo69
+2022-02-28 00:32:28,518 Command to send: c
+o69
+add
+ro65
+e
+
+2022-02-28 00:32:28,519 Answer received: !ybtrue
+2022-02-28 00:32:28,519 Command to send: c
+o69
+add
+ro66
+e
+
+2022-02-28 00:32:28,519 Answer received: !ybtrue
+2022-02-28 00:32:28,519 Command to send: c
+o69
+add
+ro67
+e
+
+2022-02-28 00:32:28,520 Answer received: !ybtrue
+2022-02-28 00:32:28,520 Command to send: c
+o69
+add
+ro68
+e
+
+2022-02-28 00:32:28,520 Answer received: !ybtrue
+2022-02-28 00:32:28,520 Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro69
+e
+
+2022-02-28 00:32:28,520 Answer received: !yro70
+2022-02-28 00:32:28,521 Command to send: c
+o64
+select
+ro70
+e
+
+2022-02-28 00:32:28,536 Answer received: !yro71
+2022-02-28 00:32:28,536 Command to send: c
+o71
+count
+e
+
+2022-02-28 00:32:28,818 Command to send: m
+d
+o0
+e
+
+2022-02-28 00:32:28,818 Answer received: !yv
+2022-02-28 00:32:28,819 Command to send: m
+d
+o7
+e
+
+2022-02-28 00:32:28,819 Answer received: !yv
+2022-02-28 00:32:28,819 Command to send: m
+d
+o8
+e
+
+2022-02-28 00:32:28,819 Answer received: !yv
+2022-02-28 00:32:28,819 Command to send: m
+d
+o9
+e
+
+2022-02-28 00:32:28,819 Answer received: !yv
+2022-02-28 00:32:28,819 Command to send: m
+d
+o10
+e
+
+2022-02-28 00:32:28,819 Answer received: !yv
+2022-02-28 00:32:28,819 Command to send: m
+d
+o11
+e
+
+2022-02-28 00:32:28,819 Answer received: !yv
+2022-02-28 00:32:28,819 Command to send: m
+d
+o12
+e
+
+2022-02-28 00:32:28,820 Answer received: !yv
+2022-02-28 00:32:28,820 Command to send: m
+d
+o13
+e
+
+2022-02-28 00:32:28,820 Answer received: !yv
+2022-02-28 00:32:28,820 Command to send: m
+d
+o14
+e
+
+2022-02-28 00:32:28,820 Answer received: !yv
+2022-02-28 00:32:28,820 Command to send: m
+d
+o15
+e
+
+2022-02-28 00:32:28,820 Answer received: !yv
+2022-02-28 00:32:28,820 Command to send: m
+d
+o16
+e
+
+2022-02-28 00:32:28,820 Answer received: !yv
+2022-02-28 00:32:28,820 Command to send: m
+d
+o17
+e
+
+2022-02-28 00:32:28,820 Answer received: !yv
+2022-02-28 00:32:28,821 Command to send: m
+d
+o19
+e
+
+2022-02-28 00:32:28,821 Answer received: !yv
+2022-02-28 00:32:28,821 Command to send: m
+d
+o22
+e
+
+2022-02-28 00:32:28,821 Answer received: !yv
+2022-02-28 00:32:28,821 Command to send: m
+d
+o23
+e
+
+2022-02-28 00:32:28,821 Answer received: !yv
+2022-02-28 00:32:28,821 Command to send: m
+d
+o24
+e
+
+2022-02-28 00:32:28,821 Answer received: !yv
+2022-02-28 00:32:28,821 Command to send: m
+d
+o25
+e
+
+2022-02-28 00:32:28,821 Answer received: !yv
+2022-02-28 00:32:28,822 Command to send: m
+d
+o26
+e
+
+2022-02-28 00:32:28,822 Answer received: !yv
+2022-02-28 00:32:28,822 Command to send: m
+d
+o27
+e
+
+2022-02-28 00:32:28,822 Answer received: !yv
+2022-02-28 00:32:28,822 Command to send: m
+d
+o30
+e
+
+2022-02-28 00:32:28,822 Answer received: !yv
+2022-02-28 00:32:28,822 Command to send: m
+d
+o31
+e
+
+2022-02-28 00:32:28,822 Answer received: !yv
+2022-02-28 00:32:28,822 Command to send: m
+d
+o32
+e
+
+2022-02-28 00:32:28,822 Answer received: !yv
+2022-02-28 00:32:28,822 Command to send: m
+d
+o33
+e
+
+2022-02-28 00:32:28,823 Answer received: !yv
+2022-02-28 00:32:28,823 Command to send: m
+d
+o34
+e
+
+2022-02-28 00:32:28,823 Answer received: !yv
+2022-02-28 00:32:28,823 Command to send: m
+d
+o35
+e
+
+2022-02-28 00:32:28,823 Answer received: !yv
+2022-02-28 00:32:28,823 Command to send: m
+d
+o36
+e
+
+2022-02-28 00:32:28,823 Answer received: !yv
+2022-02-28 00:32:28,823 Command to send: m
+d
+o37
+e
+
+2022-02-28 00:32:28,823 Answer received: !yv
+2022-02-28 00:32:28,823 Command to send: m
+d
+o38
+e
+
+2022-02-28 00:32:28,823 Answer received: !yv
+2022-02-28 00:32:28,824 Command to send: m
+d
+o39
+e
+
+2022-02-28 00:32:28,824 Answer received: !yv
+2022-02-28 00:32:28,824 Command to send: m
+d
+o40
+e
+
+2022-02-28 00:32:28,824 Answer received: !yv
+2022-02-28 00:32:28,824 Command to send: m
+d
+o41
+e
+
+2022-02-28 00:32:28,824 Answer received: !yv
+2022-02-28 00:32:28,824 Command to send: m
+d
+o42
+e
+
+2022-02-28 00:32:28,824 Answer received: !yv
+2022-02-28 00:32:28,824 Command to send: m
+d
+o43
+e
+
+2022-02-28 00:32:28,824 Answer received: !yv
+2022-02-28 00:32:28,825 Command to send: m
+d
+o44
+e
+
+2022-02-28 00:32:28,825 Answer received: !yv
+2022-02-28 00:32:28,825 Command to send: m
+d
+o45
+e
+
+2022-02-28 00:32:28,825 Answer received: !yv
+2022-02-28 00:32:28,825 Command to send: m
+d
+o46
+e
+
+2022-02-28 00:32:28,825 Answer received: !yv
+2022-02-28 00:32:28,825 Command to send: m
+d
+o54
+e
+
+2022-02-28 00:32:28,825 Answer received: !yv
+2022-02-28 00:32:28,825 Command to send: m
+d
+o55
+e
+
+2022-02-28 00:32:28,825 Answer received: !yv
+2022-02-28 00:32:28,825 Command to send: m
+d
+o56
+e
+
+2022-02-28 00:32:28,825 Answer received: !yv
+2022-02-28 00:32:28,826 Command to send: m
+d
+o61
+e
+
+2022-02-28 00:32:28,826 Answer received: !yv
+2022-02-28 00:32:28,826 Command to send: m
+d
+o69
+e
+
+2022-02-28 00:32:28,826 Answer received: !yv
+2022-02-28 00:32:30,133 Answer received: !yL45
+2022-02-28 00:32:30,133 writing data to snowflake, 45 records inserted to resentation table
+2022-02-28 00:32:30,133 Command to send: c
+o71
+write
+e
+
+2022-02-28 00:32:30,141 Answer received: !yro72
+2022-02-28 00:32:30,142 Command to send: c
+o72
+format
+ssnowflake
+e
+
+2022-02-28 00:32:30,145 Answer received: !yro73
+2022-02-28 00:32:30,146 Command to send: c
+o73
+option
+ssfURL
+szu02863.ap-south-1.aws.snowflakecomputing.com
+e
+
+2022-02-28 00:32:30,147 Answer received: !yro74
+2022-02-28 00:32:30,147 Command to send: c
+o74
+option
+ssfAccount
+szu02863.ap-south-1.aws
+e
+
+2022-02-28 00:32:30,148 Answer received: !yro75
+2022-02-28 00:32:30,148 Command to send: c
+o75
+option
+ssfUser
+scoolkeonjhar
+e
+
+2022-02-28 00:32:30,149 Answer received: !yro76
+2022-02-28 00:32:30,149 Command to send: c
+o76
+option
+ssfPassword
+sAmrita@123
+e
+
+2022-02-28 00:32:30,150 Answer received: !yro77
+2022-02-28 00:32:30,150 Command to send: c
+o77
+option
+ssfDatabase
+sNIMBUS_MAPS
+e
+
+2022-02-28 00:32:30,151 Answer received: !yro78
+2022-02-28 00:32:30,151 Command to send: c
+o78
+option
+ssfSchema
+sPRESENTATION
+e
+
+2022-02-28 00:32:30,152 Answer received: !yro79
+2022-02-28 00:32:30,153 Command to send: c
+o79
+option
+ssfWarehouse
+sSNOW_LARGE_VWH
+e
+
+2022-02-28 00:32:30,153 Answer received: !yro80
+2022-02-28 00:32:30,154 Command to send: c
+o80
+option
+ssfRole
+sACCOUNTADMIN
+e
+
+2022-02-28 00:32:30,155 Answer received: !yro81
+2022-02-28 00:32:30,155 Command to send: c
+o81
+option
+sdbtable
+sNIMBUS_MAPS.PRESENTATION.DECISION_DATA_PRES
+e
+
+2022-02-28 00:32:30,156 Answer received: !yro82
+2022-02-28 00:32:30,156 Command to send: c
+o82
+mode
+sappend
+e
+
+2022-02-28 00:32:30,157 Answer received: !yro83
+2022-02-28 00:32:30,157 Command to send: c
+o83
+option
+sheader
+strue
+e
+
+2022-02-28 00:32:30,158 Answer received: !yro84
+2022-02-28 00:32:30,158 Command to send: c
+o84
+save
+e
+
+2022-02-28 00:32:37,890 Answer received: !yv
+2022-02-28 00:32:37,890 Data processed successfully Exiting
+2022-02-28 00:32:37,890 Command to send: c
+o18
+stop
+e
+
+2022-02-28 00:32:37,986 Answer received: !yv

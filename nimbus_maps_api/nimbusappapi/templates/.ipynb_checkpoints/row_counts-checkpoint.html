@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 0px solid gray;
+  padding: 8px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+font-size: 30px
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+    a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+    .myDivElement{
+    text-align:center;
+}
+.myDivElement ul li{
+   display:inline;
+
+ }
+    
+    
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+    a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+    <style>
+#row_count {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+    margin-top:100px;
+    margin-left:15%;
+}
+
+#row_count td, #customers th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#row_count tr:nth-child(even){background-color: #f2f2f2;}
+
+#row_count tr:hover {background-color: #ddd;}
+
+#row_count th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.tr {
+margin-top: 350px;
+  text-align: center;
+  font-size: 16px;
+  color: #cfcfcf;
+  display: block;    
+        }
+</style>
+</head>
+<body>
+
+<div>
+  <h1>Nimbus® Maps</h1>
+  
+
+
+    
+    
+        </div>
+<h1>Row Counts</h1>
+
+<table id="row_count">
+  <tr>
+    <th>Stage Data Lake Count</th>
+    <th>Raw Table Row Count</th>
+    <th>Prese Table Row Count</th>
+    <th>Prod Table Row Count</th>
+      <th>Duplicates Table Row Count</th>
+  </tr>
+  <tr>
+    <td>{{STAGE_LAKE_ROW_COUNT}}</td>
+    <td>{{RAW_TABLE_ROW_COUNT}}</td>
+    <td>{{PRES_TABLE_ROW_COUNT}}</td>
+    <td>{{PRODUCTION_ROW_COUNT}}</td>
+      <td>{{DUPLICATES_ROW_COUNT}}</td>
+  </tr>
+ 
+</table>
+<div class='tr'>
+    <a href="/get_data" target="_blank">Read Data From API</a>
+          <a href="/show_design_diagram" target="_blank">Show Design Diagram</a>
+          <a href="/show_dataflow" target="_blank">Show Data Flow</a>
+     <a href="/" target="_blank">Home</a>
+    </div>
+</body>
+</html>
+
+

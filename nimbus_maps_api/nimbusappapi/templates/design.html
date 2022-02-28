@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<style>
+div {
+  border: 0px solid gray;
+  padding: 8px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+font-size: 30px
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+    a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+    .myDivElement{
+    text-align:center;
+}
+.myDivElement ul li{
+   display:inline;
+
+ }
+    img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+        a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+    .tr {
+margin-top: 250px;
+  text-align: center;
+  font-size: 16px;
+  color: #cfcfcf;
+  display: block;  
+</style>
+    
+</head>
+<body>
+
+<div>
+  <h1>Nimbus® Maps</h1>
+  
+    <IMG class="center" STYLE="position:left; TOP:160px; LEFT:370px; WIDTH:1100px; HEIGHT:500px" SRC='{%static 'images/Design_Diagram.PNG' %}', href="{% url 'home' %}">
+        <div class='tr'>
+        <a href="/" target="_blank">Home</a>
+     <a href="/get_data" target="_blank">Get Data from API</a>
+
+          <a href="/show_dataflow" target="_blank">Show Data Flow</a>
+        </div>
+        
+</div>
+</body>
+</html>
+
+
